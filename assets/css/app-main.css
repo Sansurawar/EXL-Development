@@ -943,7 +943,8 @@ footer {
   font-weight: font-weight; }
 .verification .verification-amount {
   width: 48%;
-  float: left; }
+  float: left;
+  overflow-x: hidden; }
   .verification .verification-amount .colume-first {
     width: 42px;
     border: 1px solid #d9dfea;
@@ -1178,7 +1179,7 @@ footer {
       letter-spacing: 0.5px; }
     .worksheet-properties .column-setup .exposure-period-setup .exposure-preview ul {
       max-height: 248px;
-      overflow: scroll;
+      overflow-x: scroll;
       padding-left: 0; }
       .worksheet-properties .column-setup .exposure-period-setup .exposure-preview ul li {
         font-size: 0.857em;
@@ -1400,3 +1401,5 @@ footer {
       float: none;
       line-height: 40px;
       margin: 0px 5px; } }
+
+/*# sourceMappingURL=app-main.css.map */

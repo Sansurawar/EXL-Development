@@ -13,6 +13,7 @@
   .verification-amount {
     width: 48%;
     float:left;
+    overflow-x: hidden;
     .colume-first {
       width: 42px;
       border: 1px solid $table-border;
