@@ -1,0 +1,23 @@
+
+/*----------------- FOOTER SECTION -----------------*/
+footer {
+  background-color: $footer-color;
+  margin-top:55px;
+  font-size: 0.989em;
+  min-height: 74px;
+  padding-top: 33px;
+  color: $copy-right;
+  @include font-roboto-th;
+  .copy-right {
+    margin : 0;
+  }
+  .ftr-link {
+    float: right;
+    a {
+      float:right;
+      margin-left:30px;
+      color: $footer-link;
+      text-decoration: underline;
+    }
+  }
+}

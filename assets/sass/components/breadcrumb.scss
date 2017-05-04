@@ -1,0 +1,23 @@
+
+/*----------------- Breadcrumb Style CSS -----------------*/
+.breadcrumb {
+  margin-top:15px;
+  padding: 8px 15px 8px 0;
+  margin-bottom: 10px;
+  list-style: none;
+  background: none;
+	> li {
+	  display: inline-block;
+		font-size:13px;
+    font-weight: 100;
+	}
+	> li + li:before {
+	  padding: 0 5px;
+	  color: $grey-light;
+	  content: " > ";
+		font-size:11px;
+	}
+	> .active {
+	  color: $grey-light3;
+	}
+}

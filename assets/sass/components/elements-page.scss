@@ -1,0 +1,53 @@
+.accordion-aside {
+  ul {
+    background-color: $color-light-blue6;
+    @include border-radius(6px);
+    padding-bottom: 5px;
+    li {
+      .title-collapse {
+        background-color: $table-title-color;
+        @include font-montserrat;
+        font-size: 0.857em;
+        display: block;
+        color: $color-white;
+        padding: 12px 15px 12px 20px;
+        font-weight: 100;
+        line-height: 22px;
+        .icon-collapsed {
+          font-size: 24px;
+          float: right;
+          color: $color-white;
+        }
+      }
+      &:first-child {
+        .title-collapse {
+          @include border-top-left-radius (6px);
+          @include border-top-right-radius (6px);
+        }
+      }
+      .sublinks {
+        margin: 15px 15px;
+        a {
+          background-color: $color-white;
+          display: block;
+          margin-bottom: 8px;
+          color: $grey-dark2;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
+.elements-page-wrap {
+  .element-left-portion {
+    width: 31%;
+    float: left;
+    margin-top: 26px;
+  }
+  .element-right-portion {
+    width: 67%;
+    float: right;
+    margin-top: 26px;
+  }
+}

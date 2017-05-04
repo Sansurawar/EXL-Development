@@ -1,0 +1,1402 @@
+/*----------------- Roboto Fonts -----------------*/
+@font-face {
+  font-family: 'Roboto Cn';
+  src: url("../fonts/Roboto-Condensed.eot");
+  src: url("../fonts/Roboto-Condensed.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Condensed.woff") format("woff"), url("../fonts/Roboto-Condensed.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto Cn';
+  src: url("../fonts/Roboto-CondensedItalic.eot");
+  src: url("../fonts/Roboto-CondensedItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-CondensedItalic.woff") format("woff"), url("../fonts/Roboto-CondensedItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Italic.eot");
+  src: url("../fonts/Roboto-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Italic.woff") format("woff"), url("../fonts/Roboto-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'Roboto Lt';
+  src: url("../fonts/Roboto-Light.eot");
+  src: url("../fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Light.woff") format("woff"), url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto Cn';
+  src: url("../fonts/Roboto-BoldCondensedItalic.eot");
+  src: url("../fonts/Roboto-BoldCondensedItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-BoldCondensedItalic.woff") format("woff"), url("../fonts/Roboto-BoldCondensedItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-BoldItalic.eot");
+  src: url("../fonts/Roboto-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-BoldItalic.woff") format("woff"), url("../fonts/Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'Roboto Lt';
+  src: url("../fonts/Roboto-Medium.eot");
+  src: url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto Th';
+  src: url("../fonts/Roboto-Thin.eot");
+  src: url("../fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Thin.woff") format("woff"), url("../fonts/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto Bk';
+  src: url("../fonts/Roboto-BlackItalic.eot");
+  src: url("../fonts/Roboto-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-BlackItalic.woff") format("woff"), url("../fonts/Roboto-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Regular.eot");
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto Bk';
+  src: url("../fonts/Roboto-Black.eot");
+  src: url("../fonts/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Black.woff") format("woff"), url("../fonts/Roboto-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto Th';
+  src: url("../fonts/Roboto-ThinItalic.eot");
+  src: url("../fonts/Roboto-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-ThinItalic.woff") format("woff"), url("../fonts/Roboto-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+@font-face {
+  font-family: 'Roboto Lt';
+  src: url("../fonts/Roboto-LightItalic.eot");
+  src: url("../fonts/Roboto-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-LightItalic.woff") format("woff"), url("../fonts/Roboto-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: 'Roboto Lt';
+  src: url("../fonts/Roboto-MediumItalic.eot");
+  src: url("../fonts/Roboto-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-MediumItalic.woff") format("woff"), url("../fonts/Roboto-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Bold.eot");
+  src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto Cn';
+  src: url("../fonts/Roboto-BoldCondensed.eot");
+  src: url("../fonts/Roboto-BoldCondensed.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-BoldCondensed.woff") format("woff"), url("../fonts/Roboto-BoldCondensed.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+/*----------------- Montserrat Fonts -----------------*/
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Bold.eot");
+  src: url("../fonts/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular_1.eot");
+  src: url("../fonts/Montserrat-Regular_1.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular_1.woff") format("woff"), url("../fonts/Montserrat-Regular_1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Light.eot");
+  src: url("../fonts/Montserrat-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Montserrat Semi';
+  src: url("../fonts/Montserrat-SemiBold.eot");
+  src: url("../fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Montserrat Hairline';
+  src: url("../fonts/Montserrat-Hairline.eot");
+  src: url("../fonts/Montserrat-Hairline.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Hairline.woff") format("woff"), url("../fonts/Montserrat-Hairline.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Bold_1.eot");
+  src: url("../fonts/Montserrat-Bold_1.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Bold_1.woff") format("woff"), url("../fonts/Montserrat-Bold_1.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Black.eot");
+  src: url("../fonts/Montserrat-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Black.woff") format("woff"), url("../fonts/Montserrat-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'Montserrat Extra';
+  src: url("../fonts/Montserrat-ExtraBold.eot");
+  src: url("../fonts/Montserrat-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-ExtraBold.woff") format("woff"), url("../fonts/Montserrat-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'Montserrat Ultra';
+  src: url("../fonts/Montserrat-UltraLight.eot");
+  src: url("../fonts/Montserrat-UltraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-UltraLight.woff") format("woff"), url("../fonts/Montserrat-UltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?nqggtz");
+  src: url("../fonts/icomoon.eot?nqggtz#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?nqggtz") format("truetype"), url("../fonts/icomoon.woff?nqggtz") format("woff"), url("../fonts/icomoon.svg?nqggtz#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-exl-collapsed:before {
+  content: "\e91c"; }
+
+.icon-exl-copy-from-another:before {
+  content: "\e91d"; }
+
+.icon-exl-copy:before {
+  content: "\e91e"; }
+
+.icon-exl-delete:before {
+  content: "\e91f"; }
+
+.icon-exl-drag-arrow:before {
+  content: "\e928"; }
+
+.icon-exl-expanded:before {
+  content: "\e929"; }
+
+.icon-exl-move:before {
+  content: "\e92a"; }
+
+.icon-exl-search:before {
+  content: "\e92b"; }
+
+.icon-exl-arrow-down:before {
+  content: "\e90e"; }
+
+.icon-exl-arrow-up:before {
+  content: "\e90f"; }
+
+.icon-exl-calendar:before {
+  content: "\e910"; }
+
+.icon-exl-checked-disabled .path1:before {
+  content: "\e911";
+  color: #e3e5ea; }
+
+.icon-exl-checked-disabled .path2:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: #e7ebf1; }
+
+.icon-exl-checked-disabled .path3:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: #e7ebf1; }
+
+.icon-exl-checked-disabled .path4:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: #e3e6ec; }
+
+.icon-exl-check-ticked .path1:before {
+  content: "\e915";
+  color: #b3bac6; }
+
+.icon-exl-check-ticked .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: #e3e5ea; }
+
+.icon-exl-check-ticked .path3:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: #008ed0; }
+
+.icon-exl-check-box .path1:before {
+  content: "\e918";
+  color: #b3bac6; }
+
+.icon-exl-check-box .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: #e3e5ea; }
+
+.icon-exl-radio-checked:before {
+  content: "\e91a"; }
+
+.icon-exl-radio:before {
+  content: "\e91b"; }
+
+.icon-exl-add:before {
+  content: "\e900"; }
+
+.icon-exl-checkmark:before {
+  content: "\e901"; }
+
+.icon-exl-close:before {
+  content: "\e902"; }
+
+.icon-exl-edit:before {
+  content: "\e903"; }
+
+.icon-exl-export:before {
+  content: "\e904"; }
+
+.icon-exl-guidance:before {
+  content: "\e905"; }
+
+.icon-exl-import:before {
+  content: "\e906"; }
+
+.icon-exl-info:before {
+  content: "\e907"; }
+
+.icon-exl-next-arrow:before {
+  content: "\e908"; }
+
+.icon-exl-previous-arrow:before {
+  content: "\e909"; }
+
+.icon-exl-properties:before {
+  content: "\e90a"; }
+
+.icon-exl-reference:before {
+  content: "\e90b"; }
+
+.icon-exl-remove:before {
+  content: "\e90c"; }
+
+.icon-exl-save:before {
+  content: "\e90d"; }
+
+/*----------------- Mixins -----------------*/
+/*------- Text Ellipsis  -------*/
+/*------- Border Radius  -------*/
+/*------- Box Shadow -------*/
+/*------- Text Shadow -------*/
+/*------- Word Break -------*/
+/*------- Fonts Roboto -------*/
+/*------- Fonts Montserrat -------*/
+/*----------------- Colors Variable -----------------*/
+/*---------- Primary Buttons and Liks ---------*/
+/*---------- White and Black Shades ---------*/
+/*---------- Light Blue and Dark Shades ---------*/
+/*---------- Table ---------*/
+/*---------- Icons ---------*/
+/*---------- Forms ---------*/
+/*---------- other colos ---------*/
+.cs-select {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  text-align: left;
+  background: #fff;
+  z-index: 100;
+  width: 100%;
+  max-width: 500px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+div.cs-select:focus {
+  outline: none;
+  /* For better accessibility add a style for this in your skin */ }
+
+.cs-select select {
+  display: none; }
+
+.cs-select span {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding: 7px 5px 7px 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+/* Placeholder and selected option */
+.cs-select > span::after,
+.cs-select .cs-selected span::after {
+  speak: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.cs-select > span::after {
+  content: "\e90e";
+  font-family: 'icomoon' !important;
+  right: 1em;
+  color: #b8c4d1; }
+
+.cs-select .cs-selected span::after {
+  content: '\2713';
+  margin-left: 1em; }
+
+.cs-select.cs-active > span::after {
+  -webkit-transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%) rotate(180deg); }
+
+/* Options */
+.cs-select .cs-options {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+  visibility: hidden; }
+
+.cs-select.cs-active .cs-options {
+  visibility: visible; }
+
+.cs-select ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+.cs-select ul span {
+  padding: 1em; }
+
+/* Optgroup and optgroup label */
+.cs-select li.cs-optgroup ul {
+  padding-left: 1em; }
+
+.cs-select li.cs-optgroup > span {
+  cursor: default; }
+
+div.cs-skin-border {
+  background: transparent;
+  font-size: 14px;
+  max-width: 600px; }
+
+.cs-skin-border > span {
+  border: 1px solid #b8c4d1;
+  background-color: #fff;
+  color: #76787c;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: background 0.2s, border-color 0.2s;
+  transition: background 0.2s, border-color 0.2s; }
+
+.cs-skin-border > span::after,
+.cs-skin-border .cs-selected span::after {
+  /*font-family: 'icomoon';
+  content: '\e000';*/ }
+
+.cs-skin-border ul span::after {
+  content: '';
+  opacity: 0; }
+
+.cs-skin-border.cs-active > span {
+  background: #fff;
+  border-color: #fff;
+  color: #76787c;
+  border: 1px solid #b8c4d1; }
+
+.cs-skin-border .cs-options {
+  font-size: 0.75em;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, visibility 0s 0.2s;
+  transition: opacity 0.2s, visibility 0s 0.2s; }
+
+.cs-skin-border.cs-active .cs-options {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  border: 1px solid #b8c4d1;
+  border-top: none; }
+
+.cs-skin-border ul span {
+  padding: 8px 5px 5px 10px;
+  font-size: 14px;
+  color: #76787c;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.cs-skin-border .cs-options li span:hover,
+.cs-skin-border li.cs-focus span {
+  background: #f0f3f6; }
+
+/*----------------- Breadcrumb Style CSS -----------------*/
+.breadcrumb {
+  margin-top: 15px;
+  padding: 8px 15px 8px 0;
+  margin-bottom: 10px;
+  list-style: none;
+  background: none; }
+  .breadcrumb > li {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 100; }
+  .breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #b1b1b2;
+    content: " > ";
+    font-size: 11px; }
+  .breadcrumb > .active {
+    color: #9f9f9f; }
+
+/*----------------- PAGINATION Style CSS -----------------*/
+.pagination li a {
+  font-size: 0.857em;
+  color: #b1b1b2;
+  border: none;
+  padding: 6px 10px; }
+  .pagination li a:hover {
+    background: none;
+    color: #008ed0; }
+  .pagination li a:focus {
+    outline: none;
+    background: none; }
+.pagination li.active a {
+  background: none;
+  color: #008ed0; }
+  .pagination li.active a:hover {
+    background: none;
+    color: #008ed0; }
+  .pagination li.active a:focus {
+    outline: none;
+    background: none; }
+.pagination .pagination-arrow {
+  font-size: 14px;
+  color: #b8c4d1;
+  line-height: 17px; }
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  color: #555; }
+
+html, body, ul, li, ul li ul, ul li ol, form {
+  margin: 0; }
+
+ul {
+  list-style: none;
+  padding-left: 0; }
+
+input:focus {
+  outline: none;
+  box-shadow: none; }
+
+a {
+  text-decoration: none;
+  color: #008ed0;
+  cursor: pointer; }
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #000; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 100; }
+
+hr {
+  margin: 15px 0;
+  border-top: 1px solid #e0e5e9; }
+
+.full-width {
+  width: 100%; }
+
+.checkbox label, .radio label {
+  padding-left: 0; }
+
+.btn-big {
+  min-width: 260px;
+  height: 54px; }
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif; }
+
+.head-title {
+  font-size: 1.367em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 0; }
+
+.head-underline {
+  font-size: 1.143em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e0e5e9;
+  padding-bottom: 12px;
+  margin-top: 0; }
+
+/*----------------- Title with Border Style -----------------*/
+.title-with-border {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 1.143em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #dfe5e8;
+  padding-bottom: 12px;
+  margin-bottom: 26px;
+  font-weight: font-weight; }
+
+/*----------------- Form Input Style -----------------*/
+.form-control {
+  padding: 7px 12px;
+  height: 36px;
+  border: 1px solid #d1e3ec;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0; }
+
+/*----------------- Default Primary Button -----------------*/
+.btn-primary {
+  font-family: 'Montserrat Regular', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 1em;
+  background-color: #f87d6c;
+  padding: 9px 20px;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: 100;
+  letter-spacing: 1px; }
+  .btn-primary:active, .btn-primary:focus, .btn-primary .btn:focus, .btn-primary:active:focus {
+    background-color: #f87d6c;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #fff; }
+    .btn-primary:active:hover, .btn-primary:focus:hover, .btn-primary .btn:focus:hover, .btn-primary:active:focus:hover {
+      background-color: #f87d6c; }
+  .btn-primary:hover {
+    background-color: #f16d5b;
+    color: #fff;
+    border: none; }
+
+.btn-blue {
+  font-family: 'Montserrat Regular', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 1em;
+  background-color: #1f9dd7;
+  padding: 9px 20px;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: 100;
+  letter-spacing: 1px; }
+  .btn-blue:active, .btn-blue:focus, .btn-blue .btn:focus, .btn-blue:active:focus {
+    background-color: #1f9dd7;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #fff; }
+    .btn-blue:active:hover, .btn-blue:focus:hover, .btn-blue .btn:focus:hover, .btn-blue:active:focus:hover {
+      background-color: #1f9dd7; }
+  .btn-blue:hover {
+    background-color: #1c8dc1;
+    color: #fff;
+    border: none; }
+
+/*----------------- Default Table -----------------*/
+.table-responsive {
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.grid {
+  width: 100%; }
+  .grid thead {
+    background-color: #8aacbe; }
+    .grid thead tr td {
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 0.5px;
+      font-size: 0.714em;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+      vertical-align: middle;
+      padding: 17px 3px; }
+      .grid thead tr td:first-child {
+        -webkit-border-top-left-radius: 5px;
+        -moz-border-top-left-radius: 5px;
+        border-top-left-radius: 5px; }
+      .grid thead tr td:last-child {
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-top-right-radius: 5px;
+        border-top-right-radius: 5px; }
+  .grid tbody {
+    border-right: 2px solid #d9dfea;
+    border-left: 2px solid #d9dfea; }
+    .grid tbody tr td {
+      font-size: 0.857em;
+      border-bottom: 1px solid #d9dfea;
+      text-align: center;
+      padding: 11px 3px; }
+
+/*----------------- Radio and Checkbox Buttons Stylish -----------------*/
+input[type="radio"], [type="checkbox"] {
+  display: none; }
+
+input[type="radio"] + label:before {
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 20px;
+  content: "\e91b";
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 22px;
+  color: #a9b1be; }
+
+input[type="radio"]:checked + label:before {
+  content: "\e91a";
+  color: #008ed0; }
+
+input[type="radio"]:disabled + label:before {
+  color: #ccd1db;
+  cursor: not-allowed; }
+
+input[type="checkbox"] + label:before {
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 20px;
+  content: "";
+  margin-right: 8px;
+  margin-top: -3px;
+  float: left;
+  width: 21px;
+  height: 21px;
+  border: 1px solid #a9b1be; }
+
+input[type="checkbox"]:checked + label:before {
+  content: "\e901";
+  color: blue;
+  width: 21px;
+  height: 21px;
+  border: 1px solid #a9b1be;
+  font-size: 21px;
+  line-height: 18px;
+  padding-left: 0px;
+  color: #008ed0; }
+
+input[type="checkbox"]:disabled + label:before {
+  border: 1px solid #e6eaf1;
+  color: #ccd1db;
+  cursor: not-allowed; }
+
+/*----------------- HEADER SECTION -----------------*/
+header {
+  background-color: #576067;
+  min-height: 64px; }
+  header .logo-left {
+    float: left;
+    margin-top: 18px; }
+  header .logo-right {
+    float: right;
+    margin-top: 7px; }
+
+/*----------------- FOOTER SECTION -----------------*/
+footer {
+  background-color: #444f55;
+  margin-top: 55px;
+  font-size: 0.989em;
+  min-height: 74px;
+  padding-top: 33px;
+  color: #c2c2c2;
+  font-family: 'Roboto Th', sans-serif; }
+  footer .copy-right {
+    margin: 0; }
+  footer .ftr-link {
+    float: right; }
+    footer .ftr-link a {
+      float: right;
+      margin-left: 30px;
+      color: #ececec;
+      text-decoration: underline; }
+
+/*----------------- TOP POLICY PANEL SECTION -----------------*/
+.top-policy-panel {
+  background-color: #f0f3f6;
+  padding: 22px 0; }
+  .top-policy-panel ul {
+    padding: 0;
+    margin-left: 0; }
+    .top-policy-panel ul li {
+      float: left;
+      border-right: 1px solid #d0d3dc;
+      padding: 0 41px;
+      min-height: 64px; }
+      .top-policy-panel ul li:first-child {
+        padding-left: 0px; }
+      .top-policy-panel ul li:last-child {
+        border-right: 0;
+        padding-right: 0px;
+        padding-left: 0px;
+        float: right; }
+      .top-policy-panel ul li .title {
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 2px;
+        margin-top: 14px;
+        font-size: 1.143em;
+        color: #333;
+        letter-spacing: normal; }
+      .top-policy-panel ul li .sub-title {
+        font-size: 0.857em;
+        color: #9f9f9f;
+        text-transform: uppercase;
+        opacity: 0.6;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0.5px; }
+    .top-policy-panel ul .icons {
+      margin-top: 22px; }
+      .top-policy-panel ul .icons a {
+        border-left: 1px solid #d0d3dc;
+        padding-left: 9px;
+        margin-left: 6px;
+        float: left;
+        line-height: 9px; }
+        .top-policy-panel ul .icons a i {
+          font-size: 19px;
+          color: #008ed0; }
+        .top-policy-panel ul .icons a:first-child {
+          border-left: none; }
+
+/*----------------- PAYROLL WORKSHEET GRID SECTION -----------------*/
+.titlebar-withlink .payroll-title {
+  font-size: 1.429em;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  color: #555;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 100; }
+  .titlebar-withlink .payroll-title span {
+    font-family: 'Montserrat Semi', sans-serif;
+    letter-spacing: 0.5px;
+    color: #333;
+    font-weight: 100; }
+.titlebar-withlink .import-links {
+  margin-top: 20px; }
+  .titlebar-withlink .import-links a {
+    float: right;
+    margin-left: 37px; }
+    .titlebar-withlink .import-links a .icon-export {
+      font-size: 19px;
+      color: #b8c4d1;
+      margin: -2px 6px 0 0;
+      float: left; }
+    .titlebar-withlink .import-links a .icon-import {
+      font-size: 20px;
+      color: #b8c4d1;
+      margin: -2px 6px 0 0;
+      float: left; }
+    .titlebar-withlink .import-links a .icon-close {
+      font-size: 19px;
+      color: #b8c4d1;
+      margin: 0px 5px 0 0;
+      float: left; }
+
+.payrollwork-worksheet .selectform-links {
+  margin-top: 26px; }
+  .payrollwork-worksheet .selectform-links .selectbox {
+    width: 120px;
+    float: left; }
+    .payrollwork-worksheet .selectform-links .selectbox .cs-placeholder {
+      font-size: 0.857em;
+      padding: 6px 5px 6px 8px;
+      color: #76787c;
+      border: 1px solid #b8c4d1; }
+    .payrollwork-worksheet .selectform-links .selectbox ul span {
+      font-size: 12px; }
+  .payrollwork-worksheet .selectform-links .properties-link {
+    margin: 5px 0 0 31px;
+    float: left; }
+    .payrollwork-worksheet .selectform-links .properties-link i {
+      font-size: 19px;
+      color: #b8c4d1;
+      margin: 0 6px 0 0;
+      float: left; }
+.payrollwork-worksheet .payroll-worksheet-grid {
+  margin-top: 25px; }
+  .payrollwork-worksheet .payroll-worksheet-grid .table-responsive {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    border-top-right-radius: 5px; }
+  .payrollwork-worksheet .payroll-worksheet-grid .payroll-grid {
+    width: 100%; }
+    .payrollwork-worksheet .payroll-worksheet-grid .payroll-grid thead {
+      background-color: #8aacbe; }
+      .payrollwork-worksheet .payroll-worksheet-grid .payroll-grid thead tr td {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0.5px;
+        font-size: 0.714em;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        vertical-align: middle;
+        padding: 10px 3px; }
+        .payrollwork-worksheet .payroll-worksheet-grid .payroll-grid thead tr td:first-child {
+          -webkit-border-top-left-radius: 5px;
+          -moz-border-top-left-radius: 5px;
+          border-top-left-radius: 5px; }
+        .payrollwork-worksheet .payroll-worksheet-grid .payroll-grid thead tr td:last-child {
+          -webkit-border-top-right-radius: 5px;
+          -moz-border-top-right-radius: 5px;
+          border-top-right-radius: 5px; }
+        .payrollwork-worksheet .payroll-worksheet-grid .payroll-grid thead tr td:nth-child(2) {
+          text-align: left;
+          padding-left: 5px; }
+    .payrollwork-worksheet .payroll-worksheet-grid .payroll-grid tbody {
+      border-right: 2px solid #d9dfea;
+      border-left: 2px solid #d9dfea; }
+      .payrollwork-worksheet .payroll-worksheet-grid .payroll-grid tbody tr td {
+        font-size: 0.857em;
+        border-bottom: 1px solid #d9dfea;
+        text-align: center;
+        padding: 11px 3px; }
+      .payrollwork-worksheet .payroll-worksheet-grid .payroll-grid tbody tr:nth-child(2) {
+        text-align: left; }
+      .payrollwork-worksheet .payroll-worksheet-grid .payroll-grid tbody tr .edit {
+        padding: 0 10px; }
+        .payrollwork-worksheet .payroll-worksheet-grid .payroll-grid tbody tr .edit i {
+          font-size: 19px;
+          color: #b8c4d1; }
+  .payrollwork-worksheet .payroll-worksheet-grid .link-add-delete {
+    border: 1px solid #d9dfea;
+    padding: 5px 10px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: -1px; }
+    .payrollwork-worksheet .payroll-worksheet-grid .link-add-delete a {
+      padding: 14px 9px 22px 9px;
+      float: left;
+      margin-right: 8px; }
+      .payrollwork-worksheet .payroll-worksheet-grid .link-add-delete a i {
+        font-size: 19px;
+        color: #b8c4d1;
+        margin: 0px 5px 0 0;
+        float: left; }
+  .payrollwork-worksheet .payroll-worksheet-grid .payroll-pagination .pagination {
+    float: right;
+    margin: 8px 0; }
+
+/*----------------- VERIFICATION SECTION -----------------*/
+.verification .veryfication-title {
+  font-family: 'Montserrat Regular', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 1.143em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #dfe5e8;
+  padding-bottom: 12px;
+  margin-bottom: 26px;
+  font-weight: font-weight; }
+.verification .verification-amount {
+  width: 48%;
+  float: left; }
+  .verification .verification-amount .colume-first {
+    width: 42px;
+    border: 1px solid #d9dfea;
+    text-align: center; }
+  .verification .verification-amount .column-second {
+    text-align: left;
+    padding-left: 110px; }
+  .verification .verification-amount .greybg {
+    background-color: #f4f5f7; }
+    .verification .verification-amount .greybg td {
+      padding: 8px 3px; }
+  .verification .verification-amount .icon-save {
+    font-size: 18px;
+    color: #a1aebc;
+    display: block; }
+  .verification .verification-amount .input-box {
+    width: 222px;
+    float: left;
+    border: none;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-shadow: 0px -1px 2px #bfc7d5;
+    -webkit-box-shadow: 0px -1px 2px #bfc7d5;
+    box-shadow: 0px -1px 2px #bfc7d5; }
+    .verification .verification-amount .input-box.margin-left {
+      margin-left: 22px; }
+  .verification .verification-amount .verification-add-delete {
+    border: 1px solid #d9dfea;
+    padding: 5px 10px; }
+    .verification .verification-amount .verification-add-delete a {
+      padding: 14px 9px 22px 9px;
+      float: left;
+      margin-right: 8px; }
+      .verification .verification-amount .verification-add-delete a i {
+        font-size: 19px;
+        color: #b8c4d1;
+        margin: 0px 5px 0 0;
+        float: left; }
+.verification .verification-difference {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.5px;
+  width: 48%;
+  float: right; }
+  .verification .verification-difference .title {
+    font-size: 1em;
+    margin: 0 0 8px 0; }
+  .verification .verification-difference .price {
+    font-size: 1.429em;
+    color: #333;
+    font-family: 'Montserrat Semi', sans-serif;
+    letter-spacing: 0.5px; }
+  .verification .verification-difference .form-textarea {
+    margin: 15px 0; }
+    .verification .verification-difference .form-textarea .label {
+      font-size: 0.857em;
+      color: #959fb2;
+      padding-left: 0px;
+      display: block;
+      text-align: left;
+      font-weight: normal;
+      margin-bottom: 8px; }
+    .verification .verification-difference .form-textarea .textarea {
+      width: 100%;
+      height: 80px;
+      border: 1px solid #d9dfea;
+      padding: 10px;
+      resize: none; }
+      .verification .verification-difference .form-textarea .textarea:focus {
+        outline: none; }
+  .verification .verification-difference .check-label {
+    font-family: 'Roboto', sans-serif;
+    color: #868b96; }
+.verification .btn-submit {
+  min-width: 260px;
+  height: 54px;
+  margin-top: 46px; }
+
+.worksheet-properties .property-form {
+  margin-top: 22px; }
+  .worksheet-properties .property-form .label-form {
+    font-size: 0.857em;
+    float: left;
+    font-family: 'Montserrat Light', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    line-height: 34px;
+    margin-right: 8px;
+    text-transform: uppercase; }
+    .worksheet-properties .property-form .label-form.split-date {
+      width: 105px;
+      text-align: right; }
+  .worksheet-properties .property-form .input-form {
+    float: left;
+    width: 60%; }
+  .worksheet-properties .property-form .date-form {
+    float: left;
+    width: 147px; }
+    .worksheet-properties .property-form .date-form .date-select {
+      padding: 0 0 0 8px;
+      line-height: 25px; }
+  .worksheet-properties .property-form .date-icon {
+    font-size: 25px;
+    color: #8aacbe;
+    cursor: pointer;
+    margin: 3px 0 0 8px;
+    float: left; }
+  .worksheet-properties .property-form .clear-date {
+    float: left;
+    font-size: 0.857em;
+    margin: 8px 0 0 8px;
+    color: #555;
+    text-decoration: underline; }
+  .worksheet-properties .property-form .exclude {
+    margin-top: 18px;
+    color: #868b96; }
+.worksheet-properties .title-margin {
+  margin-top: 32px; }
+.worksheet-properties .column-setup .bluebar-title {
+  background-color: #8aacbe;
+  padding: 8px 0 7px 20px;
+  text-transform: uppercase;
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-top-left-radius: 6px;
+  border-top-left-radius: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-top-right-radius: 6px;
+  border-top-right-radius: 6px; }
+  .worksheet-properties .column-setup .bluebar-title .title {
+    font-family: 'Montserrat Regular', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 0.857em;
+    color: #fff; }
+.worksheet-properties .column-setup .setup-container {
+  border: 1px solid #d9dfea;
+  -webkit-border-bottom-left-radius: 6px;
+  -moz-border-bottom-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top: 0;
+  padding-bottom: 10px;
+  min-height: 578px; }
+  .worksheet-properties .column-setup .setup-container .add-link {
+    margin-top: 30px; }
+    .worksheet-properties .column-setup .setup-container .add-link .icon-add {
+      font-size: 19px;
+      color: #b8c4d1;
+      margin-right: 7px;
+      float: left; }
+  .worksheet-properties .column-setup .setup-container .add-input {
+    width: 70%;
+    float: left;
+    padding: 4px 10px;
+    height: 30px;
+    margin: -5px 0 0 5px;
+    font-family: 'Roboto', sans-serif; }
+  .worksheet-properties .column-setup .setup-container .icon-save {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    margin-top: -5px;
+    border: 1px solid #dfe5e8;
+    font-size: 19px;
+    color: #b8c4d1;
+    border-left: none; }
+  .worksheet-properties .column-setup .setup-container .icon-edit {
+    font-size: 19px;
+    color: #b8c4d1;
+    vertical-align: sub;
+    margin-left: 8px; }
+.worksheet-properties .column-setup .basic-info-setup {
+  width: 368px;
+  margin-right: 16px;
+  float: left;
+  margin-bottom: 20px; }
+  .worksheet-properties .column-setup .basic-info-setup .basic-check-list {
+    padding-left: 16px;
+    margin-top: 0; }
+    .worksheet-properties .column-setup .basic-info-setup .basic-check-list li {
+      margin: 23px 0; }
+      .worksheet-properties .column-setup .basic-info-setup .basic-check-list li .checkbox label span {
+        padding-left: 5px; }
+.worksheet-properties .column-setup .exposure-period-setup {
+  width: 370px;
+  float: left;
+  margin-bottom: 20px; }
+  .worksheet-properties .column-setup .exposure-period-setup .blue-bg {
+    background-color: #f1f7fb;
+    padding: 14px 16px; }
+  .worksheet-properties .column-setup .exposure-period-setup .label-quarter {
+    width: 32%;
+    float: left;
+    margin-top: 8px;
+    font-weight: normal; }
+  .worksheet-properties .column-setup .exposure-period-setup .start-quarter-select {
+    width: 68%;
+    float: left; }
+  .worksheet-properties .column-setup .exposure-period-setup .first-week-date {
+    width: 57%;
+    float: left;
+    line-height: 23px; }
+  .worksheet-properties .column-setup .exposure-period-setup .dateicon {
+    font-size: 25px;
+    color: #b8c4d1;
+    float: left;
+    margin: 5px 0 0 8px; }
+  .worksheet-properties .column-setup .exposure-period-setup .quarter-count {
+    padding: 13px 16px; }
+    .worksheet-properties .column-setup .exposure-period-setup .quarter-count .input-number {
+      width: 80px;
+      float: right;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px; }
+  .worksheet-properties .column-setup .exposure-period-setup .btn-preview {
+    width: 140px;
+    margin: 20px 0;
+    font-size: 0.857em; }
+  .worksheet-properties .column-setup .exposure-period-setup .exposure-preview {
+    border: 1px solid #d9dfea;
+    margin: 0 20px; }
+    .worksheet-properties .column-setup .exposure-period-setup .exposure-preview .titlebar {
+      background-color: #cfe5f1;
+      font-size: 0.786em;
+      text-transform: uppercase;
+      padding: 13px 15px;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 0.5px; }
+    .worksheet-properties .column-setup .exposure-period-setup .exposure-preview ul {
+      max-height: 248px;
+      overflow: scroll;
+      padding-left: 0; }
+      .worksheet-properties .column-setup .exposure-period-setup .exposure-preview ul li {
+        font-size: 0.857em;
+        padding-left: 15px;
+        border-bottom: 1px solid #d9dfea;
+        min-height: 49px;
+        line-height: 48px; }
+        .worksheet-properties .column-setup .exposure-period-setup .exposure-preview ul li:last-child {
+          border-bottom: none; }
+        .worksheet-properties .column-setup .exposure-period-setup .exposure-preview ul li .icon-edit {
+          font-size: 19px;
+          color: #b8c4d1;
+          float: left;
+          margin: 14px 25px 0 0; }
+        .worksheet-properties .column-setup .exposure-period-setup .exposure-preview ul li .input-edit {
+          width: 70%;
+          font-size: 1em;
+          display: inline;
+          padding: 4px 10px;
+          height: 30px; }
+.worksheet-properties .column-setup .adjustment-setup {
+  width: 370px;
+  float: right; }
+  .worksheet-properties .column-setup .adjustment-setup .adjustment-table table thead tr th {
+    font-family: 'Montserrat Regular', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 0.786em;
+    border-bottom: 1px solid #d9dfea;
+    border-left: 1px solid #d9dfea;
+    background-color: #f1f7fb;
+    text-align: center;
+    padding: 11px 10px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: normal; }
+    .worksheet-properties .column-setup .adjustment-setup .adjustment-table table thead tr th:first-child {
+      background: none;
+      border-left: none;
+      text-align: left; }
+  .worksheet-properties .column-setup .adjustment-setup .adjustment-table table tbody tr td {
+    border-bottom: 1px solid #d9dfea;
+    border-left: 1px solid #d9dfea;
+    text-align: center;
+    padding: 11px 8px;
+    vertical-align: middle; }
+    .worksheet-properties .column-setup .adjustment-setup .adjustment-table table tbody tr td:first-child {
+      border-left: none;
+      text-align: left; }
+    .worksheet-properties .column-setup .adjustment-setup .adjustment-table table tbody tr td .checkbox {
+      margin: 0 0 0 10px; }
+    .worksheet-properties .column-setup .adjustment-setup .adjustment-table table tbody tr td .title-input-edit {
+      width: 66%;
+      font-size: 1em;
+      float: left;
+      padding: 4px 10px;
+      height: 30px;
+      font-family: 'Montserrat Regular', sans-serif;
+      letter-spacing: 0.5px;
+      margin-top: -5px; }
+    .worksheet-properties .column-setup .adjustment-setup .adjustment-table table tbody tr td .div-input-edit {
+      width: 30px;
+      font-size: 1em;
+      display: inline;
+      padding: 4px 1px;
+      height: 30px;
+      text-align: center;
+      margin-top: -5px; }
+  .worksheet-properties .column-setup .adjustment-setup .addbtn-margin {
+    margin: 15px 0 0 15px; }
+.worksheet-properties .topmargin {
+  margin-top: 25px; }
+
+.accordion-aside ul {
+  background-color: #e8f5fb;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding-bottom: 5px; }
+  .accordion-aside ul li .title-collapse {
+    background-color: #8aacbe;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 0.857em;
+    display: block;
+    color: #fff;
+    padding: 12px 15px 12px 20px;
+    font-weight: 100;
+    line-height: 22px; }
+    .accordion-aside ul li .title-collapse .icon-collapsed {
+      font-size: 24px;
+      float: right;
+      color: #fff; }
+  .accordion-aside ul li:first-child .title-collapse {
+    -webkit-border-top-left-radius: 6px;
+    -moz-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-top-right-radius: 6px;
+    border-top-right-radius: 6px; }
+  .accordion-aside ul li .sublinks {
+    margin: 15px 15px; }
+    .accordion-aside ul li .sublinks a {
+      background-color: #fff;
+      display: block;
+      margin-bottom: 8px;
+      color: #555;
+      padding: 20px; }
+
+.elements-page-wrap .element-left-portion {
+  width: 31%;
+  float: left;
+  margin-top: 26px; }
+.elements-page-wrap .element-right-portion {
+  width: 67%;
+  float: right;
+  margin-top: 26px; }
+
+/*----------------- Responsive CSS -----------------*/
+/* iPads Scresns ----------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .top-policy-panel ul li {
+    width: 33%;
+    padding-left: 0;
+    border: none;
+    min-height: 80px; }
+    .top-policy-panel ul li .icons a {
+      padding: 0;
+      margin: 0 10px 0 0;
+      border: none; }
+    .top-policy-panel ul li:last-child {
+      float: left; }
+
+  .titlebar-withlink .payroll-title {
+    width: auto; }
+  .titlebar-withlink .import-links {
+    width: auto; }
+    .titlebar-withlink .import-links a {
+      margin-left: 0;
+      margin-right: 37px;
+      float: left; }
+
+  .verification .verification-amount {
+    width: 100%; }
+    .verification .verification-amount .input-box {
+      width: 85%; }
+  .verification .verification-difference {
+    width: 100%;
+    margin-top: 40px; }
+
+  .worksheet-properties .property-form .col-sm-4 {
+    width: 100%;
+    margin-bottom: 15px; }
+  .worksheet-properties .property-form .label-form {
+    width: 18%; }
+    .worksheet-properties .property-form .label-form.split-date {
+      width: 18%;
+      text-align: left; }
+  .worksheet-properties .column-setup .adjustment-setup {
+    float: left; } }
+/* Mobile Scresns ----------- */
+@media screen and (max-width: 767px) {
+  .top-policy-panel ul li {
+    width: 48%;
+    padding-left: 0;
+    border: none;
+    min-height: 80px; }
+    .top-policy-panel ul li .icons a {
+      padding: 0;
+      margin: 0 10px 0 0;
+      border: none; }
+    .top-policy-panel ul li:last-child {
+      float: left; }
+
+  .titlebar-withlink .payroll-title {
+    width: auto; }
+  .titlebar-withlink .import-links {
+    width: auto; }
+    .titlebar-withlink .import-links a {
+      margin-left: 0;
+      margin: 0 37px 15px 0;
+      float: left; }
+
+  .payrollwork-worksheet .payroll-worksheet-grid .link-add-delete {
+    border-right: none; }
+
+  .verification .verification-amount {
+    width: 100%; }
+    .verification .verification-amount .column-second {
+      padding-left: 10%; }
+    .verification .verification-amount .input-box {
+      width: 85%; }
+  .verification .verification-difference {
+    width: 100%;
+    margin-top: 40px; }
+
+  .worksheet-properties .property-form .col-sm-4 {
+    width: 100%;
+    margin-bottom: 15px; }
+  .worksheet-properties .property-form .label-form {
+    width: 18%;
+    line-height: 22px; }
+    .worksheet-properties .property-form .label-form.split-date {
+      width: 18%;
+      text-align: left; }
+  .worksheet-properties .column-setup .basic-info-setup {
+    width: 100%; }
+  .worksheet-properties .column-setup .exposure-period-setup {
+    width: 100%; }
+  .worksheet-properties .column-setup .adjustment-setup {
+    width: 100%; }
+
+  footer .copy-right {
+    text-align: center; }
+  footer .ftr-link {
+    width: 100%;
+    margin: 20px 0 10px 0;
+    text-align: center; }
+    footer .ftr-link a {
+      float: none;
+      line-height: 40px;
+      margin: 0px 5px; } }

@@ -1,0 +1,201 @@
+body {padding:0px; margin: 0px; font-family: 'Roboto', sans-serif; color: $grey-dark2;}
+
+html, body, ul, li, ul li ul, ul li ol, form {margin: 0;}
+ul {list-style: none; padding-left: 0;}
+input:focus {outline: none; box-shadow: none;}
+
+a {text-decoration: none; color: #008ed0; cursor: pointer;}
+a:hover, a:focus {text-decoration: none; color: #000;}
+
+h1, h2, h3, h4, h5, h6 { @include font-montserrat; font-weight: 100;}
+hr { margin:15px 0; border-top: 1px solid $line-break;}
+.full-width {width: 100%;}
+.checkbox label, .radio label { padding-left: 0;}
+.btn-big {min-width:260px; height:54px;}
+.font-roboto {font-family: 'Roboto', sans-serif;}
+
+.head-title {font-size: 1.367em; letter-spacing: 1px; text-transform: uppercase; margin-top: 0;}
+.head-underline {font-size: 1.143em; text-transform: uppercase; border-bottom: 1px solid $line-break; padding-bottom: 12px; margin-top: 0;}
+
+/*----------------- Title with Border Style -----------------*/
+.title-with-border {
+	@include font-montserrat;
+	font-size: 1.143em;
+	text-transform: uppercase;
+	border-bottom: 1px solid $title-border;
+	padding-bottom:12px;
+	margin-bottom: 26px;
+	font-weight: font-weight;
+}
+
+/*----------------- Form Input Style -----------------*/
+.form-control {
+	padding: 7px 12px;
+	height: 36px;
+	border: 1px solid $input-border;
+	@include border-radius(0);
+}
+
+/*----------------- Default Primary Button -----------------*/
+.btn-primary {
+	@include font-montserrat-regular;
+	font-size : 1em;
+	background-color: $btn-primary;
+	padding:9px 20px;
+	border-radius :3px;
+	color: $color-white;
+	border:none;
+	@include border-radius (5px);
+	font-weight: 100;
+	letter-spacing: 1px;
+	&:active, &:focus, .btn:focus, &:active:focus {
+		background-color: $btn-primary;
+		border:none;
+		outline: none;
+		box-shadow: none;
+		color: $color-white;
+		&:hover {
+			background-color: $btn-primary;
+		}
+	}
+	&:hover {
+		background-color: $btn-primary-hover;
+		color: $color-white;
+		border:none;
+	}
+}
+
+.btn-blue {
+	@include font-montserrat-regular;
+	font-size : 1em;
+	background-color: $btn-second-primary;
+	padding:9px 20px;
+	border-radius :3px;
+	color: $color-white;
+	border:none;
+	@include border-radius (5px);
+	font-weight: 100;
+	letter-spacing: 1px;
+	&:active, &:focus, .btn:focus, &:active:focus {
+		background-color: $btn-second-primary;
+		border:none;
+		outline: none;
+		box-shadow: none;
+		color: $color-white;
+		&:hover {
+			background-color: $btn-second-primary;
+		}
+	}
+	&:hover {
+		background-color: $btn-second-primary-hover;
+		color: $color-white;
+		border:none;
+	}
+}
+
+
+/*----------------- Default Table -----------------*/
+.table-responsive {
+	@include border-top-left-radius (5px);
+	@include border-top-right-radius (5px);
+}
+.grid {
+	width: 100%;
+	thead {
+		background-color: $table-title-color;
+		tr {
+			td {
+				@include font-montserrat;
+				font-size: 0.714em;
+				color: $color-white;
+				text-align: center;
+				text-transform: uppercase;
+				vertical-align: middle;
+				padding: 17px 3px;
+				&:first-child {
+					@include border-top-left-radius (5px);
+				}
+				&:last-child {
+					@include border-top-right-radius (5px);
+				}
+			}
+		}
+	}
+	tbody {
+		border-right:2px solid $table-border;
+		border-left:2px solid $table-border;
+		// border:1px solid $table-border;
+		// border-right:2px solid $table-border;
+		tr {
+			td {
+				font-size:0.857em;
+				border-bottom:1px solid $table-border;
+				text-align: center;
+				padding:11px 3px;
+			}
+		}
+	}
+}
+
+
+
+/*----------------- Radio and Checkbox Buttons Stylish -----------------*/
+input[type="radio"], [type="checkbox"] {
+	display: none;
+}
+input[type="radio"] + label:before {
+	speak:none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 20px;
+	content: "\e91b";
+	display: inline-block;
+	margin-right:6px;
+	font-size:22px;
+	color: $check-border;
+}
+
+input[type="radio"]:checked + label:before {
+	content: "\e91a";
+	color: $link-color;
+}
+input[type="radio"]:disabled + label:before {
+	color: $check-arrow-disabled;
+	cursor: not-allowed;
+}
+
+input[type="checkbox"] + label:before {
+	speak:none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 20px;
+	content: "";
+	margin-right:8px;
+	margin-top: -3px;
+	float: left;
+	width: 21px;
+	height: 21px;
+	border: 1px solid $check-border;
+}
+
+input[type="checkbox"]:checked + label:before {
+	content: "\e901";
+	color: blue;
+	width: 21px;
+	height: 21px;
+	border: 1px solid $check-border;
+	font-size: 21px;
+	line-height: 18px;
+	padding-left: 0px;
+	color: $link-color;
+}
+
+input[type="checkbox"]:disabled + label:before {
+	border: 1px solid $check-border-disabled;
+	color: $check-arrow-disabled;
+	cursor: not-allowed;
+}

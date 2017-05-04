@@ -1,0 +1,57 @@
+
+/*----------------- TOP POLICY PANEL SECTION -----------------*/
+.top-policy-panel {
+  background-color: $color-light-blue;
+  padding:22px 0;
+  ul {
+    padding:0;
+    margin-left: 0;
+    li {
+      float:left;
+      border-right:1px solid $border-grey;
+      padding:0 41px;
+      min-height: 64px;
+      &:first-child {
+        padding-left:0px;
+      }
+      &:last-child {
+        border-right:0;
+        padding-right:0px;
+        padding-left:0px;
+        float:right;
+      }
+      .title {
+        @include font-roboto;
+        margin-bottom: 2px;
+        margin-top: 14px;
+        font-size: 1.143em;
+        color: $grey-dark;
+        letter-spacing: normal;
+      }
+      .sub-title {
+        font-size: 0.857em;
+        color: $grey-light3;
+        text-transform: uppercase;
+        opacity : 0.6;
+        @include font-montserrat;
+      }
+    }
+    .icons {
+      margin-top:22px;
+      a {
+        border-left:1px solid $border-grey;
+        padding-left:9px;
+        margin-left:6px;
+        float:left;
+        line-height: 9px;
+        i {
+          font-size: 19px;
+          color: $link-color;
+        }
+        &:first-child {
+          border-left:none;
+        }
+      }
+    }
+  }
+}

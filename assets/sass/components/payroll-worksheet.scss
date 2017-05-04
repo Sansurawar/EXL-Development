@@ -1,0 +1,152 @@
+
+/*----------------- PAYROLL WORKSHEET GRID SECTION -----------------*/
+.titlebar-withlink {
+  .payroll-title {
+    font-size: 1.429em;
+    text-transform: uppercase;
+    margin-bottom:0px;
+    color: $grey-dark2;
+    @include font-montserrat;
+    font-weight: 100;
+    span {
+      @include font-montserrat-semi;
+      color: $grey-dark;
+      font-weight: 100;
+    }
+  }
+  .import-links {
+    margin-top: 20px;
+    a {
+      float:right;
+      margin-left:37px;
+      .icon-export {
+        font-size: 19px;
+        color: $icon-color;
+        margin:-2px 6px 0 0;
+        float:left;
+      }
+      .icon-import {
+        font-size: 20px;
+        color: $icon-color;
+        margin:-2px 6px 0 0;
+        float:left;
+      }
+      .icon-close {
+        font-size: 19px;
+        color: $icon-color;
+        margin:0px 5px 0 0;
+        float:left;
+      }
+    }
+  }
+}
+
+.payrollwork-worksheet {
+  .selectform-links {
+    margin-top:26px;
+    .selectbox {
+      width:120px;
+      float:left;
+      .cs-placeholder {
+        font-size: 0.857em;
+        padding: 6px 5px 6px 8px;
+        color: $form-select-color;
+        border:1px solid $form-select-border;
+      }
+      ul span {
+        font-size: 12px;
+      }
+    }
+    .properties-link {
+      margin:5px 0 0 31px;
+      float:left;
+      i {
+        font-size: 19px;
+        color: $icon-color;
+        margin:0 6px 0 0;
+        float:left;
+      }
+    }
+  }
+  .payroll-worksheet-grid {
+    margin-top:25px;
+    .table-responsive {
+      @include border-top-left-radius (5px);
+      @include border-top-right-radius (5px);
+    }
+    .payroll-grid {
+      width:100%;
+    	thead {
+    		background-color: $table-title-color;
+    		tr {
+    			td {
+    				@include font-montserrat;
+    				font-size: 0.714em;
+    				color: $color-white;
+    				text-align: center;
+    				text-transform: uppercase;
+    				vertical-align: middle;
+    				padding:10px 3px;
+    				&:first-child {
+    					@include border-top-left-radius (5px);
+    				}
+    				&:last-child {
+    					@include border-top-right-radius (5px);
+    				}
+            &:nth-child(2) {
+    					text-align: left;
+              padding-left:5px;
+    				}
+    			}
+    		}
+    	}
+    	tbody {
+    		// border:1px solid $table-border;
+    		border-right:2px solid $table-border;
+        border-left:2px solid $table-border;
+    		tr {
+    			td {
+    				font-size:0.857em;
+    				border-bottom:1px solid $table-border;
+    				text-align: center;
+    				padding:11px 3px;
+    			}
+          &:nth-child(2) {
+  					text-align: left;
+  				}
+          .edit {
+            padding:0 10px;
+            i {
+              font-size: 19px;
+              color: $icon-color;
+            }
+          }
+    		}
+    	}
+    }
+    .link-add-delete {
+      border:1px solid $table-border;
+      padding:5px 10px;
+      @include border-bottom-left-radius (5px);
+      @include border-bottom-right-radius (5px);
+      margin-top:-1px;
+      a {
+        padding:14px 9px 22px 9px;
+        float: left;
+        margin-right:8px;
+        i {
+          font-size: 19px;
+          color : $icon-color;
+          margin: 0px 5px 0 0;
+          float:left;
+        }
+      }
+    }
+    .payroll-pagination {
+      .pagination {
+        float:right;
+        margin: 8px 0;
+      }
+    }
+  }
+}

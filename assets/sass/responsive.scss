@@ -1,0 +1,179 @@
+/*----------------- Responsive CSS -----------------*/
+
+/* iPads Scresns ----------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .top-policy-panel {
+    ul {
+      li {
+        width:33%;
+        padding-left:0;
+        border: none;
+        min-height: 80px;
+        .icons {
+          a {
+            padding: 0;
+            margin: 0 10px 0 0;
+            border: none;
+          }
+        }
+        &:last-child {
+          float: left;
+        }
+      }
+    }
+  }
+
+  .titlebar-withlink {
+    .payroll-title {
+      width:auto;
+    }
+    .import-links {
+      width:auto;
+      a {
+        margin-left: 0;
+        margin-right: 37px;
+        float: left;
+      }
+    }
+  }
+  .payrollwork-worksheet {}
+
+  .verification {
+    .verification-amount {
+      width: 100%;
+      .input-box {
+        width: 85%;
+      }
+    }
+    .verification-difference {
+      width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .worksheet-properties {
+    .property-form {
+      .col-sm-4 {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      .label-form {
+        width: 18%;
+        &.split-date {
+          width: 18%;
+          text-align: left;
+        }
+      }
+    }
+    .column-setup {
+      .adjustment-setup {
+        float: left;
+      }
+    }
+  }
+}
+
+
+/* Mobile Scresns ----------- */
+@media screen and (max-width: 767px) {
+  .top-policy-panel {
+    ul {
+      li {
+        width:48%;
+        padding-left:0;
+        border: none;
+        min-height: 80px;
+        .icons {
+          a {
+            padding: 0;
+            margin: 0 10px 0 0;
+            border: none;
+          }
+        }
+        &:last-child {
+          float: left;
+        }
+      }
+    }
+  }
+
+  .titlebar-withlink {
+    .payroll-title {
+      width:auto;
+    }
+    .import-links {
+      width:auto;
+      a {
+        margin-left: 0;
+        margin:0 37px 15px 0;
+        float: left;
+      }
+    }
+  }
+  .payrollwork-worksheet {
+    .payroll-worksheet-grid {
+      .link-add-delete {
+        border-right : none;
+      }
+    }
+  }
+
+  .verification {
+    .verification-amount {
+      width: 100%;
+      .column-second {
+        padding-left: 10%;
+      }
+      .input-box {
+        width: 85%;
+      }
+    }
+    .verification-difference {
+      width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+  .worksheet-properties {
+    .property-form {
+      .col-sm-4 {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      .label-form {
+        width: 18%;
+        line-height: 22px;
+        &.split-date {
+          width: 18%;
+          text-align: left;
+        }
+      }
+    }
+    .column-setup {
+      .basic-info-setup {
+        width: 100%;
+      }
+      .exposure-period-setup {
+        width: 100%;
+      }
+      .adjustment-setup {
+        width: 100%;
+      }
+    }
+  }
+
+  footer {
+    .copy-right {
+      text-align: center;
+    }
+    .ftr-link {
+      width: 100%;
+      margin: 20px 0 10px 0;
+      text-align: center;
+      a {
+        float: none;
+        line-height: 40px;
+        margin: 0px 5px;
+      }
+    }
+  }
+}

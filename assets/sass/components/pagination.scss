@@ -1,0 +1,38 @@
+/*----------------- PAGINATION Style CSS -----------------*/
+.pagination {
+	li {
+		a {
+			font-size: 0.857em;
+			color:$pagination-color;
+			border: none;
+			padding : 6px 10px;
+			&:hover {
+				background :none;
+				color: $link-color;
+			}
+			&:focus {
+				outline: none;
+				background :none;
+			}
+		}
+		&.active {
+			a {
+				background :none;
+				color: $link-color;
+				&:hover {
+					background :none;
+					color: $link-color;
+				}
+				&:focus {
+					outline: none;
+					background :none;
+				}
+			}
+		}
+	}
+	.pagination-arrow {
+		font-size : 14px;
+		color: $icon-color;
+		line-height: 17px;
+	}
+}
